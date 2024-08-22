@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function showform()
+        {
+            var data="name:<input type='text' name='name'><br> comment:<br><textarea rows='5' cols='80'></textarea <br><input type='sumbit' value='post comment>";
+            document.getElementById('my location').innerHTML=data;
+        }
+
+    </script> 
+    
+</head>
+<body>
+    <form name="f1">
+        <input type="button" value="comment" onclick="showform()">
+        <div id="my location"></div>
+        </form>
+</body>
+</html>
