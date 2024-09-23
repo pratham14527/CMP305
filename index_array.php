@@ -11,4 +11,12 @@ $rno[2]=103;
 echo $rno[0]."<br>";
 echo $rno[1]."<br>";
 echo $rno[2]."<br>";
+/*echo $rno[0]."<br>";
+echo $rno[1]."<br>";
+echo $rno[2]."<br>";*/
+for($i=0;$i<=2;$i++)
+{
+    echo"rollno is=".$rno[$i]."<br>";
+}
+
 ?>
