@@ -11,4 +11,9 @@ $edata["salary"]=25000;
 echo"eid=".$edata["eid"]."<br>";
 echo"department=".$edata["dept"]."<br>";
 echo"salary=".$edata["salary"]."<br>";
+foreach($sdata as $x)
+{
+   echo "<br>" ;
+   echo $x; 
+}
 ?>
